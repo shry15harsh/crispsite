@@ -1,5 +1,7 @@
 #top{
     box-shadow:2px 2px 10px green;
+    background:white;
+    min-height:15vh;
 }
 #main-nav{
     margin-top:1.5%;
@@ -18,7 +20,7 @@
     font-size:1.5em;
 }
 .offset-header{
-    padding:120px 0 0 0 ;
+    padding:20vh 0 0 0 ;
 }
 #home{
     height:80vh;
@@ -51,21 +53,24 @@
 }
 
 #about .tab-navigation {
-    width: 100%;
     background: #393443;
     position: relative;
     z-index:2;
-    padding-top: 35px;
+    padding:5vh 0  2vh 0;
     text-align:center;
+    display:inline-block;
+}
+#about .container{
+    padding:0;
 }
 #about .tab-navigation ul{
     display:inline-block;
-    width:80%;
+    border:none;
+    padding:0;
 }
 #about .nav-tabs li {
-    margin: 0px 0 22px 0;
+    margin-bottom:22px;
     display:inline-block;
-    width:33.33%;
     text-align:center;
 }
 #about .heading h2 {
@@ -87,4 +92,18 @@
     bottom: -13px;
     left: 50%;
     margin-left: -13px;
+}
+#about .tab-pane{
+    text-align:center;
+}
+#about .tab-pane p{
+    float:left;
+    text-align:justify;
+    padding:5%;
+}
+#about .tab-pane img{
+    display:inline-block;
+}
+#about .tab-pane h1{
+    margin-top:10px;
 }

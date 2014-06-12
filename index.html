@@ -24,7 +24,7 @@
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="active nav-item sr-only"><a class="scrollto" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#profile">Profile</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#about">Profile</a></li>
                         <li class="nav-item"><a class="scrollto" href="#servies">Services</a></li>
                         <li class="nav-item"><a class="scrollto" href="#career">Career</a></li>
                         <li class="nav-item"><a class="scrollto" href="#contact">Contact</a></li>
@@ -44,17 +44,17 @@
 
             <!--            FOR ABOUT US STARTS                `-->
 
-            <section id="about" class="container col-md-12"> 
+            <section id="about" class="container col-md-12 col-xs-12 col-sm-12"> 
                 <div class="heading">
                     <h2>About us</h2>
                     <span class="triangle"></span>
                 </div>
         
-                <div class="tab-navigation">
-                    <div class="container">
-                        <ul class="nav nav-tabs">
+                <div class="tab-navigation col-xs-12 col-sm-12 col-md-12">
+                    <div class="container col-xs-12 col-sm-12 col-md-12">
+                        <ul class="nav nav-tabs col-xs-12 col-sm-12 col-md-12">
 
-                        <li>
+                        <li class="col-xs-12 col-sm-4 col-md-4">
                             <a class="group" href="#advantage" data-toggle="tab">
                                 <span class="text">
                                     Advantage Crisp
@@ -62,7 +62,7 @@
                             </a>
                         </li>
 
-                        <li>
+                        <li class="col-md-4 col-sm-4 col-xs-12">
                             <a class="group" href="#philosophy" data-toggle="tab">
                                 <span class="text">
                                     Our Philosophy
@@ -70,7 +70,7 @@
                             </a>
                         </li>
                         
-                        <li>
+                        <li class="col-md-4 col-sm-4 col-xs-12">
                             <a class="group" href="#model" data-toggle="tab">
                                 <span class="text">
                                     Delivery Model 
@@ -81,9 +81,28 @@
                         </ul>
                     </div>
                 </div>
+
+                <div class="tab-content col-md-12">
+                    <div id="advantage" class="tab-pane active">
+                        <h1 class="col-md-12">Crisp Advantage</h1>
+                        <p class="col-md-8">Crisp Analytics is an amalgamation of more than 60 years of total experience answering customer needs. We are a team of statisticians, business school graduates, PhDs and Engineers from IIMs, IITs and ISI. Our strength lies in our diversity and experiences – the team has more than 8 years of pure academic research and development experience, more than 20 years of statistics and optimization experience and countless number of hours delivering customer satisfaction across the globe. The team has the perfect balance of technology enthusiasts, data scientists, industry experts and business managers working in tandem to create working solutions for industries rather than technology marvel. Our aim is to enable information technology to be able to not only support but drive businesses to run smartly and efficiently. </p>
+                        <img class="col-md-4" src="images/advantage.jpg">
+                    </div>
+                    <div id="philosophy" class="tab-pane">
+                      <h1 class="col-md-12">Our Philosophy </h1>
+                        <p class="col-md-8">At Crisp we believe the time has come when the technology will transition from the role of a enabler supporting business to a role of guiding and driving businesses. Our solutions and thought process is ingrained with this philosophy and our sole purpose of existence is to help IT transition and drive businesses for our customers and partners. We also believe that the applications, systems and any solution will only be effective if it is objective, action oriented and exception driven. Crisp products and services are conceptualized, designed and executed in a manner that they are always configurable, flexible, agile and responsive and thereby help convert the data into insights, actions and finally into tangible performance results. </p>
+                        <img class="col-md-4" src="images/Philosophy.png">
+                    </div>
+                    <div id="model" class="tab-pane">
+                     <h1 class="col-md-12">Delivery Model </h1>                   
+                        <p class="col-md-8">Change is the only constant and if years are spent to create a solution to address a problem; in today’s every changing business scenario it might be phased out even before implementation. We believe in Crawl – Walk – Run approach to enable solutions so that we are able to create value for customer and thereby enabling quicker ROIs. Strategic Assessments are part of our continuous monitoring and development models so that the solutions are able to keep up with the ever changing needs of the business environment and our customer are able to leverage the change to their benefits. </p>
+                        
+                        <img class="col-md-4" src="images/delivery.png">
+                    </div>
+                </div>
             </section>
         </div>
-        
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     	<script src="js/bootstrap.js"></script>
     	<script src="js/myjs.js"></script>
