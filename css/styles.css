@@ -1,0 +1,27 @@
+#top{
+    box-shadow:2px 2px 10px green;
+}
+#main-nav{
+    margin-top:1.5%;
+}
+#top .logo{
+    margin-top:1%;
+}
+#top .icon-bar{
+    background:white;
+}
+#top .navbar-toggle{
+    background:rgb(0,111,9);
+}
+#navbar-collapse ul li a{
+    color:green;
+    font-size:1.5em;
+}
+.offset-header{
+    padding:120px 0 0 0 ;
+}
+#home{
+    background:url('../images/big.jpg') center center no-repeat;
+    background-size:80% 80%;
+    height:80vh;
+}
