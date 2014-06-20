@@ -36,9 +36,30 @@
 #about{
     padding: 0;
 }
-
+#services{
+    padding: 0;
+}
+#career{
+    padding: 0;
+}
+#contact{
+    padding: 0;
+}
 #about h2{
     margin: 0;
+}
+#services h2{
+    margin: 0;
+}
+#contact h2{
+    margin: 0;
+}
+#career h2{
+    margin: 0;
+}
+#career .txt p{
+    text-align:justify;
+    padding:50px;
 }
 
 #about .heading {
@@ -51,8 +72,45 @@
     z-index: 3;
     background:purple;
 }
-
+#career .heading {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 22px 20px 25px 20px;
+    position: relative;
+    z-index: 3;
+    background:purple;
+}
+#services .heading {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 22px 20px 25px 20px;
+    position: relative;
+    z-index: 3;
+    background:purple;
+}
+#contact .heading {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 22px 20px 25px 20px;
+    position: relative;
+    z-index: 3;
+    background:purple;
+}
 #about .tab-navigation {
+    background: #393443;
+    position: relative;
+    z-index:2;
+    padding:5vh 0  2vh 0;
+    text-align:center;
+    display:inline-block;
+}
+#services .tab-navigation {
     background: #393443;
     position: relative;
     z-index:2;
@@ -63,7 +121,15 @@
 #about .container{
     padding:0;
 }
+#services .container{
+    padding:0;
+}
 #about .tab-navigation ul{
+    display:inline-block;
+    border:none;
+    padding:0;
+}
+#services .tab-navigation ul{
     display:inline-block;
     border:none;
     padding:0;
@@ -73,7 +139,30 @@
     display:inline-block;
     text-align:center;
 }
+#services .nav-tabs li {
+    margin-bottom:22px;
+    display:inline-block;
+    text-align:center;
+}
 #about .heading h2 {
+    color: #fff;
+    font-size: 1.7em;
+    margin:0;
+    text-align:center;
+}
+#career .heading h2 {
+    color: #fff;
+    font-size: 1.7em;
+    margin:0;
+    text-align:center;
+}
+#services .heading h2 {
+    color: #fff;
+    font-size: 1.7em;
+    margin:0;
+    text-align:center;
+}
+#contact .heading h2 {
     color: #fff;
     font-size: 1.7em;
     margin:0;
@@ -96,7 +185,15 @@
 #about .tab-pane{
     text-align:center;
 }
+#services .tab-pane{
+    text-align:center;
+}
 #about .tab-pane p{
+    float:left;
+    text-align:justify;
+    padding:5%;
+}
+#services .tab-pane p{
     float:left;
     text-align:justify;
     padding:5%;
@@ -104,6 +201,31 @@
 #about .tab-pane img{
     display:inline-block;
 }
+#services .tab-pane img{
+    display:inline-block;
+}
 #about .tab-pane h1{
     margin-top:10px;
+}
+#services .tab-pane h1{
+    margin-top:10px;
+}
+
+table{
+    border-color:gray;
+}
+.attribute{
+    width:250px;
+}
+.field{
+    padding-bottom: 5px;
+}
+.field input{
+    width:200px;
+}
+.field textarea{
+    width:200px;
+}
+h3{
+    color:#007A0B;
 }
