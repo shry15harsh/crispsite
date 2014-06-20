@@ -1,7 +1,7 @@
 #top{
-    box-shadow:2px 2px 10px green;
+    box-shadow:2px 2px 8px rgba(0,200,0,0.6);
     background:white;
-    min-height:15vh;
+    min-height:8vh;
 }
 #main-nav{
     margin-top:1.5%;
@@ -14,6 +14,13 @@
 }
 #top .navbar-toggle{
     background:rgb(0,111,9);
+}
+#top .nav-item a:hover{
+    background:white;
+    cursor:pointer;
+}
+#top .nav-item a.active{
+    background:red;
 }
 #navbar-collapse ul li a{
     color:green;
@@ -33,36 +40,17 @@
     height:100%;
     transition:opacity 2s;
 }
-#about{
+.mainContent{
     padding: 0;
 }
-#services{
-    padding: 0;
-}
-#career{
-    padding: 0;
-}
-#contact{
-    padding: 0;
-}
-#about h2{
-    margin: 0;
-}
-#services h2{
-    margin: 0;
-}
-#contact h2{
-    margin: 0;
-}
-#career h2{
+.mainContent h2{
     margin: 0;
 }
 #career .txt p{
     text-align:justify;
     padding:50px;
 }
-
-#about .heading {
+.mainContent .heading{
     display: block;
     position: relative;
     width: 100%;
@@ -70,99 +58,46 @@
     padding: 22px 20px 25px 20px;
     position: relative;
     z-index: 3;
-    background:purple;
+    background:rgba(100,200,100,1);
+    height:80px;
 }
-#career .heading {
-    display: block;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    padding: 22px 20px 25px 20px;
-    position: relative;
-    z-index: 3;
-    background:purple;
-}
-#services .heading {
-    display: block;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    padding: 22px 20px 25px 20px;
-    position: relative;
-    z-index: 3;
-    background:purple;
-}
-#contact .heading {
-    display: block;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    padding: 22px 20px 25px 20px;
-    position: relative;
-    z-index: 3;
-    background:purple;
-}
-#about .tab-navigation {
-    background: #393443;
+.mainContent .tab-navigation {
+    background: #556B2F;
     position: relative;
     z-index:2;
-    padding:5vh 0  2vh 0;
+    padding:0;
     text-align:center;
     display:inline-block;
 }
-#services .tab-navigation {
-    background: #393443;
-    position: relative;
-    z-index:2;
-    padding:5vh 0  2vh 0;
-    text-align:center;
-    display:inline-block;
+.mainContent .tab-navigation a{
+    color:white;
+    font-size:1.4em;
 }
-#about .container{
-    padding:0;
+.mainContent .tab-navigation a:hover{
+    background:transparent;
+    text-decoration:underline;
+    border:0;
 }
-#services .container{
-    padding:0;
+.mainContent .tab-content{
+    margin-top:2%;
 }
-#about .tab-navigation ul{
+.mainContent .container{
+    padding: 0;
+}
+.mainContent .tab-navigation ul{
     display:inline-block;
     border:none;
     padding:0;
 }
-#services .tab-navigation ul{
-    display:inline-block;
-    border:none;
-    padding:0;
+.nav-tabs{
+    height:50px;
 }
-#about .nav-tabs li {
+.mainContent .nav-tabs li {
     margin-bottom:22px;
     display:inline-block;
     text-align:center;
 }
-#services .nav-tabs li {
-    margin-bottom:22px;
-    display:inline-block;
-    text-align:center;
-}
-#about .heading h2 {
-    color: #fff;
-    font-size: 1.7em;
-    margin:0;
-    text-align:center;
-}
-#career .heading h2 {
-    color: #fff;
-    font-size: 1.7em;
-    margin:0;
-    text-align:center;
-}
-#services .heading h2 {
-    color: #fff;
-    font-size: 1.7em;
-    margin:0;
-    text-align:center;
-}
-#contact .heading h2 {
+.mainContent .heading h2 {
     color: #fff;
     font-size: 1.7em;
     margin:0;
@@ -177,55 +112,56 @@
     border-right: 13px solid transparent;
     border-top-width: 13px;
     border-top-style: solid;
-    border-top-color: purple;
+    border-top-color: rgba(100,200,100,1);
     bottom: -13px;
     left: 50%;
     margin-left: -13px;
 }
-#about .tab-pane{
+.mainContent .tab-pane{
     text-align:center;
 }
-#services .tab-pane{
-    text-align:center;
-}
-#about .tab-pane p{
+.mainContent .tab-pane p{
     float:left;
     text-align:justify;
     padding:5%;
 }
-#services .tab-pane p{
-    float:left;
-    text-align:justify;
-    padding:5%;
-}
-#about .tab-pane img{
+.mainContent .tab-pane img{
     display:inline-block;
 }
-#services .tab-pane img{
-    display:inline-block;
-}
-#about .tab-pane h1{
+.mainContent .tab-pane h1{
     margin-top:10px;
 }
-#services .tab-pane h1{
-    margin-top:10px;
-}
-
-table{
-    border-color:gray;
-}
-.attribute{
+#contact form .attribute{
     width:250px;
 }
-.field{
+#contact form .field{
     padding-bottom: 5px;
 }
-.field input{
+#contact form .field input{
     width:200px;
+    border:1px solid green;
+    border-radius:3px;
 }
 .field textarea{
     width:200px;
 }
 h3{
     color:#007A0B;
+}
+#contact .component{
+    padding-bottom:10.6%;
+}
+#services .head{
+    text-align:center;
+    font-size:2em;
+    color:#556B2F;
+}
+.tab-content h1{
+    font-size:1.4em;
+    color:darkgreen;
+    text-decoration:underline;
+}
+.panel-heading a{
+    color:darkgreen;
+    font-size:1.2em;
 }
