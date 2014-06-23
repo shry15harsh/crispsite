@@ -20,7 +20,7 @@
     cursor:pointer;
 }
 #top .nav-item a.active{
-    background:red;
+    //background:red;
 }
 #navbar-collapse ul li a{
     color:green;
@@ -71,7 +71,7 @@
 }
 .mainContent .tab-navigation a{
     color:white;
-    font-size:1.4em;
+    font-size:1.1em;
 }
 .mainContent .tab-navigation a:hover{
     background:transparent;
@@ -85,16 +85,13 @@
     padding: 0;
 }
 .mainContent .tab-navigation ul{
-    display:inline-block;
+    //display:inline-block;
     border:none;
     padding:0;
 }
-.nav-tabs{
-    height:50px;
-}
 .mainContent .nav-tabs li {
     margin-bottom:22px;
-    display:inline-block;
+    //display:inline-block;
     text-align:center;
 }
 .mainContent .heading h2 {
@@ -149,7 +146,7 @@ h3{
     color:#007A0B;
 }
 #contact .component{
-    padding-bottom:10.6%;
+    
 }
 #services .head{
     text-align:center;
@@ -164,4 +161,7 @@ h3{
 .panel-heading a{
     color:darkgreen;
     font-size:1.2em;
+}
+i{
+    margin-right:5px;
 }
